@@ -1,8 +1,8 @@
 #!/bin/bash
-STR="3-name"
+STR="100-intel"
 echo -e "#!/bin/bash">>$STR;
-echo 'gcc $CFILE -o cisfun'>>$STR;
+echo 'gcc -S -masm=intel $CFILE'>>$STR;
 chmod a+x $STR;
 git add *
-git commit -m "added file 3 for task 3"
+git commit -m "added file 100 for advanced task 1"
 git push
