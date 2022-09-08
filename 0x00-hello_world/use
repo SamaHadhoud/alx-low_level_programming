@@ -1,8 +1,8 @@
 #!/bin/bash
-STR="1-compiler"
+STR="2-assembler"
 echo -e "#!/bin/bash">>$STR;
-echo 'gcc -c $CFILE'>>$STR;
+echo 'gcc -S $CFILE'>>$STR;
 chmod a+x $STR;
 git add *
-git commit -m "added file 1 for task 1"
+git commit -m "added file 2 for task 2"
 git push
