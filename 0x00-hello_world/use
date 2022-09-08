@@ -1,7 +1,7 @@
 #!/bin/bash
 STR="0-preprocessor"
 echo -e "#!/bin/bash">>$STR;
-echo "gcc $CFILE -o c">>$STR;
+echo 'gcc $CFILE -o c'>>$STR;
 chmod a+x $STR;
 git add *
 git commit -m "added file 0 for task 0"
