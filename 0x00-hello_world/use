@@ -1,8 +1,8 @@
 #!/bin/bash
-STR="2-assembler"
+STR="3-name"
 echo -e "#!/bin/bash">>$STR;
-echo 'gcc -S $CFILE'>>$STR;
+echo 'gcc $CFILE -o cisfun'>>$STR;
 chmod a+x $STR;
 git add *
-git commit -m "added file 2 for task 2"
+git commit -m "added file 3 for task 3"
 git push
