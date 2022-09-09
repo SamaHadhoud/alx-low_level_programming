@@ -11,10 +11,10 @@ int main(void)
 {
 	int x;
 
-	x = 0;
-	while (x < 10)
+	x = 48;
+	while (x < 58)
 	{
-		printf("%d", x);
+		putchar(x);
 		x++;
 	}
 	putchar('\n');
