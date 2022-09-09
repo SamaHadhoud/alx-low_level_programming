@@ -18,7 +18,7 @@ int main(void)
 		x++;
 	}
 	x = 97;
-	while(x <= 'f')
+	while (x <= 'f')
 	{
 		putchar(x);
 		x++;
