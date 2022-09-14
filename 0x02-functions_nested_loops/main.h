@@ -51,3 +51,12 @@ int _abs(int);
  */
 
 int print_sign(int n);
+
+/**
+ * print_last_digit - print last digit of integer
+ * @n: integer
+ * Return: last digit of number
+  */
+
+int print_last_digit(n);
+
