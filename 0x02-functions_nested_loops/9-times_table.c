@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * jack_bauer - print every minute of a day
- * Description: print minutes 00:00 to 23:59
+ * times_table - print multiplication table
  */
 
-void jack_bauer(void)
+void times_table(void)
 {
 	int n1, n2, r, r1, r2;
 
