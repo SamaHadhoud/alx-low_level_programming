@@ -81,3 +81,11 @@ void times_table(void);
  */
 
 int add(int a, int b);
+
+/**
+ * print_to_98 - print numbers n to 98
+ * @n: integer
+ */
+
+void print_to_98(int n);
+
