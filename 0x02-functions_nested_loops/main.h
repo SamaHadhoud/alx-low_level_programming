@@ -58,5 +58,5 @@ int print_sign(int n);
  * Return: last digit of number
   */
 
-int print_last_digit(n);
+int print_last_digit(int n);
 
