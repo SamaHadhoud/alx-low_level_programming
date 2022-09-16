@@ -26,11 +26,10 @@ int main(void)
 			n = n / div;
 			if (n == 1)
 			{
-				printf("%d", maxFact)
+				printf("%lu\n", maxFact);
 				break;
 			}
 		}
 	}
-	printf("\n");
 	return (0);
 }
