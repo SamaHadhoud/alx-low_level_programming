@@ -54,4 +54,9 @@ void more_numbers(void);
  * @n: the number of time the character '_' should be print
  */
 void print_line(int n);
+/**
+ * print_diagonal - draw a diagonal
+ * @n : the number of time the character '\' should be print
+ */
+void print_diagonal(int n);
 
