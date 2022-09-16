@@ -66,3 +66,9 @@ void print_diagonal(int n);
  */
 void print_square(int size);
 
+/**
+ * print_triangle - draw a triangle
+ * @size: size of traingle
+ */
+void print_triangle(int size);
+
