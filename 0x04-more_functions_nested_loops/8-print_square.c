@@ -3,7 +3,7 @@
 /**
  * print_square - Entry point
  *
- * description: 'print square"
+ * description: "print square"
  *
  * @size: the size of the square
  *
@@ -11,7 +11,6 @@
  */
 void print_square(int size)
 {
-	
 	int i, j;
 
 	for (i = 0; i < size; i++)
@@ -20,7 +19,7 @@ void print_square(int size)
 		{
 			_putchar('#');
 		}
-		if (i != (n - 1))
+		if (i != (size - 1))
 			_putchar('\n');
 	}
 	_putchar('\n');
