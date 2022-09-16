@@ -8,21 +8,22 @@
  * Return: Always 0 (Success)
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
-	puts("1");
+	printf("1");
 	for (i = 2; i <= 100; i++)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
-			puts(" FizzBuzz");
-		else if ( i % 3 == 0)
-			puts(" Fizz");
+			printf(" FizzBuzz");
+		else if (i % 3 == 0)
+			printf(" Fizz");
 		else if (i % 5 == 0)
-			puts(" Buzz");
+			printf(" Buzz");
 		else
-			printf(" %d", n);
+			printf(" %d", i);
 	}
-	_putchar('\n');
+	printf("\n");
+	return (0);
 }
