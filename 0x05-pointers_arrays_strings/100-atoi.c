@@ -7,10 +7,11 @@
  */
 int _atoi(char *s)
 {
-	int i, n, x;
+	int i, n, x, cnt;
 
 	n = strlen(s);
 	x = 1;
+	cnt = 0;
 	for (i = 0; i < n; i++)
 	{
 		if (s[i] == '-')
@@ -21,8 +22,9 @@ int _atoi(char *s)
 		{
 			x *= 1;
 		}
-		else
+		else if ((s[i] >= '0') && (s[i] <= '9'))
 		{
+			cnt++;
 			x *= (s[i] - '0');
 			x *= 10;
 			if (x < 0)
@@ -31,7 +33,7 @@ int _atoi(char *s)
 				x++;
 		}
 	}
-	if (n > 0)
+	if (cnt != 0)
 		return (x / 10);
 	else
 		return (0);
