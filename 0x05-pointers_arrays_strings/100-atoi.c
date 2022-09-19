@@ -14,9 +14,13 @@ int _atoi(char *s)
 	for (i = 0; i < n; i++)
 	{
 		if (s[i] == '-')
+		{
 			x *= -1;
+		}
 		else if (s[i] == '+')
+		{
 			x *= 1;
+		}
 		else
 		{
 			x *= (s[i] - '0');
