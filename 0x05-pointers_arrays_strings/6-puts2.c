@@ -8,7 +8,7 @@ void _puts(char *str)
 {
 	int flip;
 
-	flip = 1
+	flip = 1;
 	while (*str != '\0')
 	{
 		if (flip)
