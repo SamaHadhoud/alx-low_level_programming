@@ -8,7 +8,7 @@
 int _atoi(char *s)
 {
 	int i, n, cnt, sign;
-	long x;
+	unsigned int x;
 
 	n = strlen(s);
 	x = 0;
@@ -27,10 +27,12 @@ int _atoi(char *s)
 			x *= 10;
 		}
 		else if (cnt > 0)
+		{
 			break;
+		}
 	}
 	if (cnt != 0)
-		return (sign * x / 10);
+		return ((x / 10) * sign);
 	else
 		return (0);
 }
