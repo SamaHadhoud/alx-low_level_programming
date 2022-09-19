@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _puts2 - print a string then endline
+ * puts2 - print a string then endline
  * @str: the string
  */
-void _puts2(char *str)
+void puts2(char *str)
 {
 	int flip;
 
