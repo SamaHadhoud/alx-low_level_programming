@@ -8,7 +8,7 @@
 int _atoi(char *s)
 {
 	int i, n, cnt, sign;
-	unsigned int x;
+	long x;
 
 	n = strlen(s);
 	x = 0;
