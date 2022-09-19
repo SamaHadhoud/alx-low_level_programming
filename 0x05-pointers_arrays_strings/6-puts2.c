@@ -6,7 +6,7 @@
  */
 void puts2(char *str)
 {
-	int flip;
+	bool flip;
 
 	flip = 1;
 	while (*str != '\0')
