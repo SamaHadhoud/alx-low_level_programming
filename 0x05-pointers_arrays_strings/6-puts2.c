@@ -6,12 +6,12 @@
  */
 void puts2(char *str)
 {
-	bool flip;
+	int flip;
 
 	flip = 1;
 	while (*str != '\0')
 	{
-		if (flip)
+		if (flip == 1)
 		{
 			_putchar(*str++);
 			flip = 0;
