@@ -7,7 +7,8 @@
  */
 int _atoi(char *s)
 {
-	int i, n, x, cnt, sign;
+	int i, n, cnt, sign;
+	unsigned int x;
 
 	n = strlen(s);
 	x = 0;
@@ -25,6 +26,8 @@ int _atoi(char *s)
 			x += (s[i] - '0');
 			x *= 10;
 		}
+		else if (cnt > 0)
+			break;
 	}
 	if (cnt != 0)
 		return (sign * x / 10);
