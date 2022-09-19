@@ -31,8 +31,9 @@ int _atoi(char *s)
 			break;
 		}
 	}
+	x /= 10;
 	if (cnt != 0)
-		return ((x / 10) * sign);
+		return (x * sign);
 	else
 		return (0);
 }
