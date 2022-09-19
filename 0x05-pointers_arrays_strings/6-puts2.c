@@ -19,6 +19,7 @@ void puts2(char *str)
 		else
 		{
 			flip = 1;
+			str++;
 		}
 	}
 	_putchar('\n');
