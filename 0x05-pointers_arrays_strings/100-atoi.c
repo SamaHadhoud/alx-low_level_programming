@@ -19,7 +19,7 @@ int _atoi(char *s)
 			x *= 1;
 		else
 		{
-			x *= s[i];
+			x *= (s[i] - '0');
 			x *= 10;
 			if (x < 0)
 				x--;
